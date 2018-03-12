@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfRack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfRack",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
