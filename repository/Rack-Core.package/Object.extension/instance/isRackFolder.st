@@ -1,0 +1,4 @@
+*Rack-Core
+isRackFolder
+
+	^ false
