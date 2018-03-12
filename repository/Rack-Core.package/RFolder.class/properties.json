@@ -1,0 +1,14 @@
+{
+	"category" : "Rack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"boxes" ],
+	"name" : "RFolder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

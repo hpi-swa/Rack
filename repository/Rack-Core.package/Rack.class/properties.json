@@ -1,0 +1,14 @@
+{
+	"category" : "Rack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"RackDragAndDropIsActivated" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Rack",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

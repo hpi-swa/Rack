@@ -1,0 +1,14 @@
+{
+	"category" : "Rack-Extras",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"object" ],
+	"name" : "RWorldIcon",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

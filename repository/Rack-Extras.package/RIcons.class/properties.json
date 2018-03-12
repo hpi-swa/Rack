@@ -1,0 +1,14 @@
+{
+	"category" : "Rack-Extras",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RIcons",
+	"pools" : [
+		 ],
+	"super" : "UiIcons",
+	"type" : "normal" }

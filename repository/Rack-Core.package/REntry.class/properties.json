@@ -1,0 +1,17 @@
+{
+	"category" : "Rack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"parents",
+		"item",
+		"label" ],
+	"name" : "REntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

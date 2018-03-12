@@ -1,0 +1,4 @@
+preferences
+doDeactivateDragAndDrop
+
+	ActiveWorld transferMorphConverter: #yourself
