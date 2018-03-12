@@ -4,6 +4,10 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
+			spec 
+				package: 'Rack-Core';
+				package: 'Rack-UI';
+				package: 'Rack-Tests'.
 			spec
 				group: 'default' with: #('core' 'Rack-UI');
 				group: 'core' with: #('Rack-Core');
