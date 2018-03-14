@@ -9,7 +9,7 @@ baseline: spec
 				package: 'Rack-UI';
 				package: 'Rack-Tests'.
 			
-			spec package: 'Icons' with: [
+			spec package: 'IconsBase' with: [
 				spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities'].	
 			
 			spec
