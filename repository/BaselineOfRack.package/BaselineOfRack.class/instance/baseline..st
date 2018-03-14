@@ -15,7 +15,7 @@ baseline: spec
 			spec
 				group: 'default' with: #('core' 'ui' 'tests');
 				group: 'core' with: #('Rack-Core');
-				group: 'ui' with: #('Rack-UI' 'Icons');
+				group: 'ui' with: #('Rack-UI' 'IconsBase');
 				group: 'tests' with: #('core' 'Rack-Tests');
 				group: 'libraries' with: #('JSON' 'VB-Regex')];
 				yourself
