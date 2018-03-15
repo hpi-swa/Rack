@@ -1,0 +1,1 @@
+A Rack Entry is an entry in a folder. It is the mapping between a name and an object.
