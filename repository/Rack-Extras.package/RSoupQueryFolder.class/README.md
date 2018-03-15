@@ -1,0 +1,1 @@
+This is a Rack query folder which selects objects from the soup. It changes the semantics of the query somewhat as the query block is now used to decide for a single object whether it should be included in the result.

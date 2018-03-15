@@ -1,0 +1,17 @@
+{
+	"category" : "Rack-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testFolder",
+		"testObject1",
+		"testObject2",
+		"testObjects" ],
+	"name" : "RackQueryFolderTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

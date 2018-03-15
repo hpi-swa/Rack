@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "pre 3/15/2018 16:02",
 	"instvars" : [
-		"query",
-		"postProcessing",
-		"previousBoxes" ],
+		 ],
 	"name" : "RSoupQueryFolder",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "RQueryFolder",
 	"type" : "normal" }

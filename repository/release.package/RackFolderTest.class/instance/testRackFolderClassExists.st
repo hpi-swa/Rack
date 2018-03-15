@@ -1,0 +1,4 @@
+testing
+testRackFolderClassExists
+
+	RFolder new
