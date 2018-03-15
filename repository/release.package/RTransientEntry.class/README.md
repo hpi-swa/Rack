@@ -1,1 +1,0 @@
-Transient entries are not explicitly created by users but are temporarily created by query folders or other collections which want to be displayed in the rack

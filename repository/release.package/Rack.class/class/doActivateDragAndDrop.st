@@ -1,4 +1,0 @@
-preferences
-doActivateDragAndDrop
-
-	ActiveWorld transferMorphConverter: #openMorphOrInspectorForTransferMorph:.

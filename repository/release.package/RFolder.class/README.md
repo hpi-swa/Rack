@@ -1,1 +1,0 @@
-A folder can hold a number of objects. Every stored object can have a local name under which it can be retrieved. The folder does not store the mapping itself but stores entries each having their own label.
