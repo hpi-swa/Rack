@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"collect:" : "pre 3/15/2018 15:44",
+		"contents" : "pre 3/15/2018 15:56",
+		"editPostProcessing" : "pre 3/15/2018 15:44",
+		"editQuery" : "pre 3/15/2018 15:44",
+		"entries" : "pre 3/15/2018 15:44",
+		"initialize" : "pre 3/15/2018 15:44",
+		"isEmpty" : "pre 3/15/2018 15:44",
+		"isRackFolder" : "pre 3/15/2018 15:44",
+		"notEmpty" : "pre 3/15/2018 15:46",
+		"postProcessing" : "pre 3/15/2018 15:44",
+		"postProcessing:" : "pre 3/15/2018 15:44",
+		"query" : "pre 3/15/2018 15:44",
+		"query:" : "pre 3/15/2018 15:44",
+		"update:" : "pre 3/15/2018 15:44" } }

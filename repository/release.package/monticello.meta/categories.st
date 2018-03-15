@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Rack-Tests'!
+SystemOrganization addCategory: #'Rack-Core'!
