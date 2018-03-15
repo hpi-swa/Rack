@@ -1,12 +1,16 @@
 language: smalltalk
 sudo: false
 
-os:
-  - linux
-  - osx
-
 smalltalk:
   - Squeak-5.1
   - Squeak-5.0
 
 after_success: bash $TRAVIS_BUILD_DIR/scripts/build_sar.sh
+
+deploy:
+  provider: releases
+  api_key:
+  secure: DeimzTkZjlTOkA0ycKW/dMRJIGe0wHjDuk/Uz9WHeT5eyCPo8JDt/9/Wm0zgyiQhEiGXVzQjn04qV4gp9Cu3b1PxNHu979b7gDz/IyiBkHf53pli7UHCHXDvQxvkCVBTVKHDstRyo6arhtULpsIEcudVrPTjRq5a6cPp3ADgp9Wkf5sctWpm1+wm5oSyZEtxW/zOHbvodzUSmRGATmlP4TpSIX+4jlAtKg3Fy+hV5XM/tL56cdvi2Ol27GIMT9HrmvPkETW0C4UdGVgeB+KGfSk9sNWbyICp0pb/o5jnhgesl91/rv6C3gqj5RXtcrftGvaZlj4G3naHwot+y3lSgU9g+cEW56CbS5cdF095lYwZqbMA69Jzvdh3oPTf0faSmvaY6x1b9WTkf2D7Ix3+s5PH9EyiHXxfbexUCQvybZAHYqp9dMtLmVcZs/blbbz+cqPe3rD+0vaFjxbhwH+Oy0fuKUqaFdqVSIrd1sAyhgNjwcK17ejB0QQE60LnpC0qEWuhQoejDs1u1ug5xQ9Vv0e6DOiOGCZpM4XijQBb4ynyfryGkcplJ4yRfNq3PH0yCg69aYgMTQGx3FyxTeB09r/JYmELu8XdeOIhh0QFxAzX5vHU53RCG3a/WuEiGcN9EuKZ5SEgDgckCEf09WaW1NumnNIEX3n+RgiTSCCcWLY=
+  file: Rack.sar
+  on:
+    repo: hpi-swa/Rack
