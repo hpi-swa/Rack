@@ -14,3 +14,4 @@ deploy:
   file: Rack.sar
   on:
     repo: hpi-swa/Rack
+    condition: $TRAVIS_TAG = v*
