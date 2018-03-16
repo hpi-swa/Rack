@@ -12,3 +12,4 @@ installScript := (categoryNames collect: [:categoryName | 'self fileInMonticello
 joinSeparatedBy: String crlf.
 zip addString: installScript as: 'install/preamble'.
 zip writeToFileNamed: package , '.sar'.
+SmalltalkImage current snapshot: false andQuit: true.
