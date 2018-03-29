@@ -9,13 +9,10 @@ baseline: spec
 			
 			spec 
 				package: 'Rack-Core';
-				package: 'Rack-UI';
-				package: 'Rack-Tests'.
+				package: 'Rack-UI' with: [spec requires: #('Rack-Core' 'IconsBase')];
+				package: 'Rack-Tests' with: [spec requires: #('Rack-Core')].
 			
 			spec
-				group: 'default' with: #('core' 'ui' 'tests');
-				group: 'core' with: #('Rack-Core');
-				group: 'ui' with: #('IconsBase' 'Rack-UI');
-				group: 'tests' with: #('core' 'Rack-Tests');
-				group: 'libraries' with: #('JSON' 'VB-Regex')];
-				yourself
+				group: 'default' with: #('Rack-UI');
+				group: 'tests' with: #('Rack-Tests' 'default');
+				yourself]
