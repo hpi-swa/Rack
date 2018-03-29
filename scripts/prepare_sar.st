@@ -38,7 +38,7 @@ author initials which might fail these tests. So we set some dummy initials here
 Metacello new
   baseline: 'Rack';
   repository: 'github://hpi-swa/Rack/repository';
-  load.
+  load: 'tests'.
 
 package := 'Rack'.
 categoryNames := #('IconsBase' 'Rack-Core' 'Rack-UI' 'Rack-Tests').
