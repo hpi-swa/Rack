@@ -13,7 +13,31 @@ Metacello new
   load.
 ```
 
-### How to cite this work
+## Getting Started
+
+### User interface
+You can access the *Rack* tool through the `Apps` menu in the world main docking bar. When it opens the first time you only see an empty `root`. Right-clicking on it gives you a menu which allows you to create a folder.
+
+In order to use drag and drop to add objects to the *Rack* you have to activate the Rack drag and drop setting in `Apps>Preferences`. After activating it you can drag objects from the *object inspector* to any Rack folder.
+
+### Programming Interface
+Upon loading the global rack instance is available as `TheRack`. You can access entries of a folder using the `/` message, regardless of whether they are folders or objects:
+
+```Smalltalk
+TheRack / 'writings' / 'essays 2017' / 'on racks and boxes'
+```
+
+In order to add an object to a folder simply use the `add:` and `add:named:` messages:
+
+```Smalltalk
+TheRack / 'writings' add: 'First sketch of a new essay without a title'.
+
+TheRack / 'writings' add: 'First sketch of a new essay' named: 'essay without a title yet'
+```
+
+Correspondingly, the messages `remove: entryName` and `rename: entryName to: newEntryName` provide other ways to modify the folders.
+
+## How to cite this work
 If you did work based on / or build using the Rack and want to write about the work, you can reference the Rack through the reference at the bottom.
 
 ````Bibtex
