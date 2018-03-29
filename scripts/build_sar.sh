@@ -11,7 +11,7 @@ function print_info {
 
 # Check required arguments
 # ==============================================================================
-if [[ "${TRAVIS_TAG}" != "v"* ]] then
+if [[ "${TRAVIS_TAG}" != "v"* ]]; then
     print_info "Nothing to do, because this is not a version tag."
     exit 0
 elif [[ "${TRAVIS_OS_NAME}" != "linux" ]]; then
