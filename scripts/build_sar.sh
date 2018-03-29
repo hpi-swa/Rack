@@ -11,8 +11,8 @@ function print_info {
 
 # Check required arguments
 # ==============================================================================
-if [[ "${TRAVIS_BRANCH}" != "master" ]] || [[ "${TRAVIS_PULL_REQUEST}" != "false" ]]; then
-    print_info "Nothing to do, because this is not the master branch or a PR."
+if [[ "${TRAVIS_TAG}" != "v"* ]] then
+    print_info "Nothing to do, because this is not a version tag."
     exit 0
 elif [[ "${TRAVIS_OS_NAME}" != "linux" ]]; then
     print_info "Nothing to do, because this is not a Linux build."
