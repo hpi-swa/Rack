@@ -4,13 +4,13 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
+			spec package: 'IconsBase' with: [
+				spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities'].	
+			
 			spec 
 				package: 'Rack-Core';
 				package: 'Rack-UI';
 				package: 'Rack-Tests'.
-			
-			spec package: 'IconsBase' with: [
-				spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities'].	
 			
 			spec
 				group: 'default' with: #('core' 'ui' 'tests');
