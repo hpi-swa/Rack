@@ -10,7 +10,7 @@ SmalltalkCISpec {
   #testing : {
     #categories : [ 'Rack-*' ],
     #coverage : {
-      #packages: [ 'Rack-Core' ]
+      #categories: [ 'Rack-Core' ]
     }
   }
 }
