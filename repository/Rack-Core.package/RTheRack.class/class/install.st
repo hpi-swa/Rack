@@ -1,7 +1,5 @@
-as yet unclassified
+class initialization
 install
-
-	TheWorldMenu registerOpenCommand: {'Object Rack' . {RRackTool . #open}}.
 
 	(Smalltalk includesKey: #TheRack) ifFalse: [
 		Smalltalk at: #TheRack put: self new]
