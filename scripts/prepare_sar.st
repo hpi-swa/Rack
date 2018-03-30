@@ -42,6 +42,8 @@ Metacello new
 
 package := 'Rack'.
 categoryNames := #('IconsBase' 'Rack-Core' 'Rack-UI' 'Rack-Tests').
+Smalltalk version = 'Squeak5.1' ifTrue: [
+  categoryNames := categoryNames , #('ToolBuilder-Kernel' 'ToolBuilder-Morphic')].
 zip := ZipArchive new.
 categoryNames do: [:categoryName |
 mczStream := RWBinaryOrTextStream on: (String new: 10000).
