@@ -1,4 +1,4 @@
 modifying
-addEntryNamed: entryName with: item
+add: item named: entryName
 	
 	^ hierarchy add: item named: entryName

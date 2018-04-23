@@ -4,6 +4,9 @@
 		"install" : "pre 3/29/2018 20:48" },
 	"instance" : {
 		"/" : "pre 10/22/2016 20:40",
+		"add:" : "pre 4/23/2018 15:26",
+		"add:named:" : "pre 4/23/2018 15:26",
+		"addAll:" : "pre 4/23/2018 15:27",
 		"addEntryNamed:with:" : "pre 2/23/2018 19:01",
 		"contents" : "pre 10/22/2016 20:52",
 		"createFolder:" : "pre 10/22/2016 20:41",
@@ -15,4 +18,6 @@
 		"isEmpty" : "pre 12/27/2017 13:47",
 		"notEmpty" : "pre 12/27/2017 13:47",
 		"printOn:" : "pre 3/12/2018 00:48",
+		"remove:" : "pre 4/23/2018 15:27",
+		"rename:to:" : "pre 4/23/2018 15:27",
 		"requestFolderName" : "pre 3/23/2017 16:05" } }
