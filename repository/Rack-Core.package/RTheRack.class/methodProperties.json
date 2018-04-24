@@ -16,8 +16,12 @@
 		"entries" : "pre 10/22/2016 21:01",
 		"initialize" : "pre 2/23/2018 18:53",
 		"isEmpty" : "pre 12/27/2017 13:47",
+		"isRackFolder" : "pre 10/22/2016 20:51",
 		"notEmpty" : "pre 12/27/2017 13:47",
+		"openRackStandardMorph" : "pre 4/24/2017 16:37",
 		"printOn:" : "pre 3/12/2018 00:48",
 		"remove:" : "pre 4/23/2018 15:27",
 		"rename:to:" : "pre 4/23/2018 15:27",
-		"requestFolderName" : "pre 3/23/2017 16:05" } }
+		"requestFolderName" : "pre 3/23/2017 16:05",
+		"worldIconMorph" : "pre 2/21/2018 17:15",
+		"worldIconText" : "pre 4/24/2017 16:36" } }

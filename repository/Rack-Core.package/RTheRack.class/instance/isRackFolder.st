@@ -1,0 +1,4 @@
+testing
+isRackFolder
+
+	^ true

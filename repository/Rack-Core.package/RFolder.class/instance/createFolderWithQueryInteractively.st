@@ -1,4 +1,4 @@
-*Rack-Extras
+interactive operations
 createFolderWithQueryInteractively
 
 	<rackOperationLabel: 'create soup query folder' inContextMenus: true>
