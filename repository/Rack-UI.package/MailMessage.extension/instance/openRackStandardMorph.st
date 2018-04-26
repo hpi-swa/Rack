@@ -1,4 +1,4 @@
 *Rack-UI
 openRackStandardMorph
 
-	^ MDEmailReader openOn: self 
+	^ MDAnnotatedEmailReader openOn: self 

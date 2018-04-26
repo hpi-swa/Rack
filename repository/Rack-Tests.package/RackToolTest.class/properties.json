@@ -1,0 +1,14 @@
+{
+	"category" : "Rack-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RackToolTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

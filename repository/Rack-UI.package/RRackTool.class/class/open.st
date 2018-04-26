@@ -1,4 +1,7 @@
 toolbuilder
 open
 
-	ToolBuilder open: RRackTool new
+	| instance |
+	instance := RRackTool new.
+	ToolBuilder open: instance.
+	^ instance
