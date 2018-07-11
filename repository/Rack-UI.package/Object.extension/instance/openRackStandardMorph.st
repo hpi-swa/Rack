@@ -1,4 +1,4 @@
 *Rack-UI
 openRackStandardMorph
 
-	^ ToolSet explore: self
+	^ ObjectEditor openOn: self
