@@ -1,6 +1,6 @@
 OrderedDictionary {
-	'Rack-Compatibility50.package' : #SquotCypressCodeSerializer,
 	'repository\/BaselineOfRack.package' : #SquotCypressCodeSerializer,
+	'repository\/Rack-Compatibility50.package' : #SquotCypressCodeSerializer,
 	'repository\/Rack-Core.package' : #SquotCypressCodeSerializer,
 	'repository\/Rack-Extras.package' : #SquotCypressCodeSerializer,
 	'repository\/Rack-Tests.package' : #SquotCypressCodeSerializer,
