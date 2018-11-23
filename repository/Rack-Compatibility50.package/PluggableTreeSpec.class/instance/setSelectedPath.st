@@ -1,0 +1,4 @@
+accessing - selection
+setSelectedPath
+
+	^ setSelectedPath
