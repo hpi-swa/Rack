@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testIsEmptyAndNotEmpty
 
 	self assert: testFolder isEmpty.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAddAll
 
 	testFolder addAll: {5 . 'hallo'}.

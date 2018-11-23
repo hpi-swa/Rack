@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 
 	testObject1 := RackTestObject new numbers: 10; yourself.

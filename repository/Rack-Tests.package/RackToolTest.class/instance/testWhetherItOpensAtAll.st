@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testWhetherItOpensAtAll
 
 	RRackTool openOn: RFolder new

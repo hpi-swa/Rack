@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSlashForNavigation
 
 	testFolder add: 5 named: 'testEntry'.

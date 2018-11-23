@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAddAnEntry
 
 	testFolder add: 5 named: 'testEntry'.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testContents
 
 	self assert: #(20) equals: testFolder contents 
