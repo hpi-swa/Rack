@@ -1,0 +1,4 @@
+*Rack-UI
+wantsYellowButtonMenu
+
+	^ true

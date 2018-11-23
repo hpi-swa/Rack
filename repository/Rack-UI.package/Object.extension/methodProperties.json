@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"addMenuOperationsTo:" : "pre 11/19/2018 17:24",
-		"asDraggableMorph" : "pre 11/23/2017 10:17",
 		"interactiveExplore" : "pre 8/7/2017 16:32",
 		"interactiveView" : "pre 8/7/2017 16:33",
 		"listItemIcon" : "pre 8/3/2017 18:16",
