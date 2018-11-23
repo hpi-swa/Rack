@@ -1,4 +1,4 @@
-as yet unclassified
+baseline
 baseline: spec
 	<baseline>
 	spec
@@ -9,7 +9,11 @@ baseline: spec
 			
 			spec 
 				package: 'Rack-Core';
-				package: 'Rack-UI' with: [spec requires: #('Rack-Core' 'IconsBase')];
+				package: 'Rack-Compatibility50';
+				package: 'Rack-UI' with: [
+					spec requires: #('Rack-Core' 'IconsBase').
+					(#('Squeak5.0' 'Squeak5.1') includes: Smalltalk version)
+						ifTrue: [spec requires: #('Rack-Core' 'IconsBase' 'Rack-Compatibility50')]];
 				package: 'Rack-Tests' with: [spec requires: #('Rack-Core')].
 			
 			spec
