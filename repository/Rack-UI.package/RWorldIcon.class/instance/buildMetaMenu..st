@@ -5,8 +5,7 @@ buildMetaMenu: evt
 	menu := MenuMorph new defaultTarget: self.
 	menu addStayUpItem.
 
-	self object menuOperations do: [:operation |
-		self addMenuOperation: operation to: menu].
+	self object addMenuOperationsTo: menu.
 	
 	menu addLine.
 	

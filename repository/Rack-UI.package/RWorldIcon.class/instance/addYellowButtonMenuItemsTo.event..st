@@ -5,8 +5,7 @@ addYellowButtonMenuItemsTo: aMenu event: evt
 	aMenu defaultTarget: self.
 	aMenu title: self object externalName.
 
-	self object menuOperations do: [:operation |
-		self addMenuOperation: operation to: aMenu].
+	self object addMenuOperationsTo: aMenu.
 	
 	aMenu addLine.
 	

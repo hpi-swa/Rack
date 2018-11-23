@@ -2,11 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addMenuOperationsTo:" : "pre 11/19/2018 17:24",
 		"asDraggableMorph" : "pre 11/23/2017 10:17",
 		"interactiveExplore" : "pre 8/7/2017 16:32",
 		"interactiveView" : "pre 8/7/2017 16:33",
 		"listItemIcon" : "pre 8/3/2017 18:16",
-		"menuOperations" : "pre 6/29/2017 16:45",
+		"menuOperations" : "pre 11/19/2018 17:18",
 		"openRackStandardMorph" : "pre 7/11/2018 20:10",
 		"worldIcon" : "pre 4/21/2017 19:52",
 		"worldIconMorph" : "pre 2/21/2018 17:31",

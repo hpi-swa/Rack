@@ -1,12 +1,10 @@
 menu
 generalMenu: aMenu
 
-	self getSelectedEntry item menuOperations do: [:operation |
-		self addMenuOperation: operation for: self getSelectedEntry item to: aMenu].
+	self getSelectedEntry item addMenuOperationsTo: aMenu.
 	
 	aMenu addLine.
 	
-	self getSelectedEntry menuOperations do: [:operation |
-		self addMenuOperation: operation for: self getSelectedEntry to: aMenu.].
-
+	self getSelectedEntry addMenuOperationsTo: aMenu.
+	
 	^ aMenu
