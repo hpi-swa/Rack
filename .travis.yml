@@ -2,9 +2,15 @@ language: smalltalk
 sudo: false
 
 smalltalk:
-  - Squeak-trunk
+  - Squeak64-trunk
+  - Squeak64-5.2
+  - Squeak-5.2
   - Squeak-5.1
   - Squeak-5.0
+
+os:
+  - linux
+  - windows
 
 after_success: bash $TRAVIS_BUILD_DIR/scripts/build_sar.sh
 
@@ -21,5 +27,12 @@ deploy:
     tags: true
 
 matrix:
+    exclude:
+        - os: windows
+          smalltalk: Squeak-5.2
+        - os: windows
+          smalltalk: Squeak-5.1
+        - os: windows
+          smalltalk: Squeak-5.0
     allow_failures:
         - smalltalk: Squeak-trunk
