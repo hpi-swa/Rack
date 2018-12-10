@@ -10,7 +10,6 @@ smalltalk:
 
 os:
   - linux
-  - windows
 
 after_success: bash $TRAVIS_BUILD_DIR/scripts/build_sar.sh
 
