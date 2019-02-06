@@ -1,2 +1,0 @@
-node access
-updateNode: node
