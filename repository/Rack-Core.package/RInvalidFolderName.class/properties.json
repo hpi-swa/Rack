@@ -1,0 +1,14 @@
+{
+	"category" : "Rack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RInvalidFolderName",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }
