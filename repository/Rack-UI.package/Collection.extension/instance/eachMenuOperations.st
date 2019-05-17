@@ -1,5 +1,5 @@
 *Rack-UI
-menuOperations
+eachMenuOperations
 
 	| candidateSets intersectingOperations |
 	candidateSets := self collect: [:i | i menuOperations] as: OrderedCollection.

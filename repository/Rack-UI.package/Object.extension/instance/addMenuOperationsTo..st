@@ -1,4 +1,4 @@
 *Rack-UI
 addMenuOperationsTo: aMenu
 
-	self menuOperations do: [:operation | self addMenuOperation: operation To: aMenu]
+	self menuOperations do: [:operation | self addMenuOperation: operation to: aMenu]

@@ -1,5 +1,5 @@
 *Rack-UI
-addMenuOperation: operation To: aMenu
+addMenuOperation: operation to: aMenu
 	aMenu 
 		addWithLabel: operation first
 		enablementSelector: nil 

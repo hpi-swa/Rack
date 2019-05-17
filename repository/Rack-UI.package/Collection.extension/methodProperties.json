@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"menuOperations" : "pre 1/10/2019 13:52",
+		"addMenuOperationsTo:" : "eb 5/17/2019 18:35",
+		"collectionMenuOperations" : "eb 5/17/2019 18:19",
+		"eachMenuOperations" : "eb 5/17/2019 18:24",
+		"performCollectionOperation:ofType:" : "eb 5/17/2019 18:21",
 		"woldIconMorph" : "pre 7/7/2018 10:42",
 		"worldIconMorph" : "pre 7/7/2018 10:48" } }
