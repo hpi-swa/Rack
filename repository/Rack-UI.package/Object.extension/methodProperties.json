@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMenuOperationsTo:" : "pre 11/19/2018 17:24",
+		"addMenuOperation:To:" : "eb 5/14/2019 23:43",
+		"addMenuOperationsTo:" : "eb 5/14/2019 23:43",
 		"interactiveBrowse" : "pre 1/22/2019 14:42",
 		"interactiveExplore" : "pre 8/7/2017 16:32",
 		"interactiveView" : "pre 8/7/2017 16:33",
