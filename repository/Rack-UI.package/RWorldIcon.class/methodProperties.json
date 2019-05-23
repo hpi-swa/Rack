@@ -3,10 +3,9 @@
 		"newFor:" : "pre 4/21/2017 19:09" },
 	"instance" : {
 		"addCustomMenuItems:hand:" : "pre 11/19/2018 17:23",
-		"addMenuOperation:to:" : "pre 4/24/2017 18:10",
-		"addYellowButtonMenuItemsTo:event:" : "pre 11/19/2018 17:23",
-		"buildMetaMenu:" : "pre 11/19/2018 17:23",
-		"buildYellowButtonMenu:" : "pre 11/19/2018 17:23",
+		"addYellowButtonMenuItemsTo:event:" : "eb 5/23/2019 11:54",
+		"buildMetaMenu:" : "eb 5/23/2019 11:55",
+		"buildYellowButtonMenu:" : "eb 5/23/2019 11:55",
 		"initialize" : "pre 12/23/2017 09:55",
 		"initializeIconAndText" : "pre 11/15/2018 10:41",
 		"object" : "pre 4/21/2017 19:08",

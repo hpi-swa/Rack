@@ -6,8 +6,9 @@ buildMetaMenu: evt
 	menu addStayUpItem.
 
 	self object addMenuOperationsTo: menu.
-	
 	menu addLine.
+	self addMenuOperation: (self class name -> self menuOperations) to: menu.
+	
 	
 	morphMenu := super buildMetaMenu: evt.
 	menu add: 'morph menu' translated subMenu: morphMenu.

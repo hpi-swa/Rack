@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMenuOperationsTo:" : "eb 5/17/2019 18:35",
-		"collectionMenuOperations" : "eb 5/17/2019 18:19",
-		"eachMenuOperations" : "eb 5/17/2019 18:24",
+		"collectionMenuOperations" : "eb 5/23/2019 11:20",
+		"eachMenuOperations" : "eb 5/23/2019 11:38",
+		"isUngeneric" : "eb 5/22/2019 20:16",
 		"performCollectionOperation:ofType:" : "eb 5/17/2019 18:21",
-		"woldIconMorph" : "pre 7/7/2018 10:42",
-		"worldIconMorph" : "pre 7/7/2018 10:48" } }
+		"selfMenuOperations" : "eb 5/23/2019 11:05",
+		"worldIconMorph" : "eb 5/22/2019 20:13" } }

@@ -2,14 +2,19 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMenuOperation:to:" : "eb 5/17/2019 18:34",
-		"addMenuOperationsTo:" : "eb 5/17/2019 18:34",
+		"addMenuOperation:to:" : "eb 5/23/2019 11:28",
+		"addMenuOperationsTo:" : "eb 5/23/2019 11:02",
+		"baseMenuOperations" : "eb 5/22/2019 19:18",
 		"interactiveBrowse" : "pre 1/22/2019 14:42",
 		"interactiveExplore" : "pre 8/7/2017 16:32",
 		"interactiveView" : "pre 8/7/2017 16:33",
 		"listItemIcon" : "pre 8/3/2017 18:16",
-		"menuOperations" : "pre 11/19/2018 17:18",
+		"memberMenuOperations" : "eb 5/23/2019 11:14",
+		"menuOperations" : "eb 5/22/2019 19:16",
+		"menuOperationsFrom:" : "eb 5/22/2019 19:25",
+		"menuOperationsFrom:to:" : "eb 5/23/2019 11:19",
 		"openRackStandardMorph" : "pre 7/11/2018 20:10",
+		"selfMenuOperations" : "eb 5/23/2019 11:20",
 		"worldIcon" : "pre 4/21/2017 19:52",
 		"worldIconMorph" : "pre 2/21/2018 17:31",
 		"worldIconText" : "pre 4/21/2017 19:52" } }
