@@ -1,0 +1,14 @@
+{
+	"category" : "Rack-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RDropHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

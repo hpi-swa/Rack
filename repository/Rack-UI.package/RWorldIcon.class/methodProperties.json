@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"newFor:" : "pre 4/21/2017 19:09" },
+		"newFor:" : "MdlH 5/26/2019 23:19" },
 	"instance" : {
 		"addCustomMenuItems:hand:" : "pre 11/19/2018 17:23",
 		"addYellowButtonMenuItemsTo:event:" : "eb 5/23/2019 11:54",
 		"buildMetaMenu:" : "eb 5/23/2019 11:55",
 		"buildYellowButtonMenu:" : "eb 5/23/2019 11:55",
 		"initialize" : "pre 12/23/2017 09:55",
-		"initializeIconAndText" : "pre 11/15/2018 10:41",
+		"initializeIconAndText" : "MdlH 5/26/2019 23:49",
 		"object" : "pre 4/21/2017 19:08",
 		"object:" : "pre 4/25/2017 14:59",
 		"openObject" : "pre 10/17/2018 08:01",
