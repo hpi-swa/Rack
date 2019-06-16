@@ -1,4 +1,4 @@
 *Rack-UI
 worldIconText
 
-	^ self name
+	^ self printStringLimitedTo: 50 
