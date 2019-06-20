@@ -3,8 +3,9 @@
 		 },
 	"instance" : {
 		"addMenuOperation:to:" : "eb 5/23/2019 11:28",
-		"addMenuOperationsTo:" : "eb 5/23/2019 11:02",
+		"addMenuOperationsTo:" : "eb 6/20/2019 14:23",
 		"baseMenuOperations" : "eb 5/22/2019 19:18",
+		"baseMenuOperationsName" : "eb 6/20/2019 14:23",
 		"dropObject" : "MdlH 5/26/2019 22:14",
 		"interactiveBrowse" : "pre 1/22/2019 14:42",
 		"interactiveExplore" : "pre 8/7/2017 16:32",

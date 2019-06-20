@@ -4,5 +4,5 @@ addMenuOperationsTo: aMenu
 	aMenu addLine.
 	self memberMenuOperations do: [:operation | self addMenuOperation: operation to: aMenu].
 	aMenu addLine.
-	self addMenuOperation: (self class superclass name -> self baseMenuOperations) to: aMenu.
+	self addMenuOperation: (self baseMenuOperationsName -> self baseMenuOperations) to: aMenu.
 	
