@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"collectionMenuOperations" : "eb 6/16/2019 11:58",
+		"collectionMenuOperations" : "eb 6/26/2019 14:20",
+		"doesNotUnderstand:" : "eb 6/26/2019 14:25",
 		"eachMenuOperations" : "eb 5/23/2019 11:38",
 		"isUngeneric" : "eb 5/23/2019 12:14",
 		"performCollectionOperation:ofType:" : "eb 5/17/2019 18:21",
