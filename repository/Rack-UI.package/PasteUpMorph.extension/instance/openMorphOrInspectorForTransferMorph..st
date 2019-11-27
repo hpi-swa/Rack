@@ -5,5 +5,5 @@ openMorphOrInspectorForTransferMorph: transferMorph
 	newMorph := transferMorph source owner = self
 		ifTrue: [transferMorph source abandon.
 				transferMorph source]
-		ifFalse: [transferMorph passenger dropObject].
+		ifFalse: [transferMorph passenger worldIcon].
 	^ newMorph

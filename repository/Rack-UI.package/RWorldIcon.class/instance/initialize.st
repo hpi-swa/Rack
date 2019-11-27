@@ -4,8 +4,11 @@ initialize
 	super initialize.
 	self 
 		color: Color transparent;
-		width: 60;
-		height: 60.
+		changeTableLayout;
+		listDirection: #topToBottom;
+		cellPositioning: #center;
+		hResizing: #shrinkWrap;
+		vResizing: #shrinkWrap.
 	
 	self initializeIconAndText.
 	
