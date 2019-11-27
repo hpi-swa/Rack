@@ -1,7 +1,8 @@
 menus
 buildMetaMenu: evt
 
-	| menu morphMenu |
+	^ super buildMetaMenu: evt
+	"| menu morphMenu |
 	menu := MenuMorph new defaultTarget: self.
 	menu addStayUpItem.
 
@@ -13,4 +14,4 @@ buildMetaMenu: evt
 	morphMenu := super buildMetaMenu: evt.
 	menu add: 'morph menu' translated subMenu: morphMenu.
 	
-	^ menu
+	^ menu"
