@@ -1,3 +1,3 @@
 *Rack-UI-menu
 menuOperationsFrom: baseClass
-	^ self menuOperationsFrom: baseClass to: Object
+	^ self menuOperationsFrom: baseClass to: ProtoObject

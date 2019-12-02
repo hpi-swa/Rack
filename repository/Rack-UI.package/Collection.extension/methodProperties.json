@@ -4,8 +4,8 @@
 	"instance" : {
 		"collectionMenuOperations" : "eb 6/26/2019 14:20",
 		"doesNotUnderstand:" : "eb 6/26/2019 14:25",
-		"eachMenuOperations" : "eb 5/23/2019 11:38",
+		"eachMenuOperations" : "pre 11/27/2019 18:03",
 		"isUngeneric" : "eb 5/23/2019 12:14",
-		"menuOperations" : "pre 11/27/2019 17:05",
+		"menuOperations" : "pre 12/2/2019 16:22",
 		"performCollectionOperation:ofType:" : "eb 5/17/2019 18:21",
 		"worldIconMorph" : "MdlH 5/26/2019 23:56" } }
