@@ -5,4 +5,6 @@ add: item named: entryName
 		self error: 'There is another box in here which has the same label'].
 	boxes add: (REntry in: self named: entryName containing: item).
 	self changed.
+	"Typically this object used as part of TheRack, so eagerly mark TheRack as changed as well."
+	TheRack changed.
 	^ item
