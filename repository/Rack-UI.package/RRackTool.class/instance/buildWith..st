@@ -33,5 +33,6 @@ buildWith: aBuilder
 	
 	window := aBuilder build: windowSpec.
 	self showsTheRackRoot ifTrue: [self changed: #expandRootsRequested].
+	TheRack addDependent: self.
 	^ window
 	

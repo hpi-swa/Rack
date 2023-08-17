@@ -1,4 +1,9 @@
 modifying
 remove: entryName
+
+	| result |
+	result := boxes removeAllSuchThat: [:box | box label = entryName].
 	self changed.
-	^ boxes removeAllSuchThat: [:box | box label = entryName]
+	"Typically this object used as part of TheRack, so eagerly mark TheRack as changed as well."
+	TheRack changed.
+	^ result
