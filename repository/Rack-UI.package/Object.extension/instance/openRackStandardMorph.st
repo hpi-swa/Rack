@@ -1,4 +1,4 @@
 *Rack-UI
 openRackStandardMorph
 
-	^ ObjectEditor openOn: self
+	^ (Smalltalk at: #ObjectEditor ifAbsent: [Inspector]) openOn: self
