@@ -20,6 +20,7 @@ buildWith: aBuilder
 		setSelectedParent: #selectedParent:;
 		setSelectedPath: #selectedPath:;
 		getSelectedPath: #selectedPath;
+		filterMode: #all;
 		dragItem: #dragFromRack:;
 		dropAccept: #wantsDroppedObject:;
 		dropItem: #drop:ontoEntry:shouldCopy:;
